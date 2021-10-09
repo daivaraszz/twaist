@@ -22,7 +22,7 @@ class ColorSwitcher extends React.Component {
           <br />
           <form name="Contact" method="POST" data-netlify="true">
           <input
-            name="message" placeholder={'El. Paštas'}
+            name="email" placeholder={'El. Paštas'}
           />
           <button type="submit" className="btn btn-primary d-flex align-items-middle">Siusti</button>
           </form>
