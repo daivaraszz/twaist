@@ -30,7 +30,7 @@ class ColorSwitcher extends React.Component {
           <br />
           <small>
             Twistas Administracija ♥ {''}
-            <a href="https://www.paypal.com/invoice/p/#T7ECAJVG9HL8SVSW" target="_blank">
+            <a href="https://www.paypal.com/invoice/p/#T7ECAJVG9HL8SVSW">
                PayPal
             </a>
           </small>
