@@ -36,6 +36,13 @@
   opacity: 0.5;
 }
 
+button {
+  position: absolute;
+  left: 25%;
+  top: 60%;
+  width: 50%;
+}
+
 input {
   background: none;
   border: 0;
@@ -55,6 +62,15 @@ small {
   a {
     color: inherit;
   }
+
+  @media only screen and (max-width: 600px) {
+    button {
+      width: 75%;
+      left: 12%;
+      top: 65%;
+    }
+  }
+
 
   h2,
 input,
