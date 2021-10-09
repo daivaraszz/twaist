@@ -24,6 +24,7 @@ class ColorSwitcher extends React.Component {
           <input
             type="email" name="email" placeholder={'El. Paštas'}
           />
+          <textarea name="message" style={{visibility: 'hidden'}}>sw</textarea>
           <button type="submit" className="btn btn-primary d-flex align-items-middle" style={{textAlign: 'center', alignSelf: 'stretch'}}>Siusti</button>
           </form>
           <br />
