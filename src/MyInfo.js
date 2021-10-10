@@ -20,11 +20,10 @@ class ColorSwitcher extends React.Component {
          Mes tai galime padaryti nemokamai, įvesk savo el. pašta ir susisieksime per 24h.
           </p>
           <br />
-          <form name="Contact" method="POST" data-netlify="true">
+          <form name="contact" data-netlify="true" netlify netlify-honeypot="bot-field">
           <input
             type="email" name="email" placeholder={'El. Paštas'}
           />
-          <textarea name="message" style={{visibility: 'hidden'}}>sw</textarea>
           <button type="submit" className="btn btn-primary d-flex align-items-middle" style={{textAlign: 'center', alignSelf: 'stretch'}}>Siusti</button>
           </form>
           <br />
