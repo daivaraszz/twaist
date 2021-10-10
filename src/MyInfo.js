@@ -20,7 +20,7 @@ class ColorSwitcher extends React.Component {
          Mes tai galime padaryti nemokamai, įvesk savo el. pašta ir susisieksime per 24h.
           </p>
           <br />
-          <form name="contact" data-netlify="true" netlify netlify-honeypot="bot-field">
+          <form name="contact" data-netlify="true" netlify>
           <input
             type="email" name="email" placeholder={'El. Paštas'}
           />
